@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'videos',
+    'crispy_forms',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -129,3 +130,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROUTE = os.path.join(BASE_DIR, 'media') #set route to media from base directoroy
 MEDIA_URL = '/media/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
